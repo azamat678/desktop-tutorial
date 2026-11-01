@@ -29,9 +29,9 @@ tryte run main.exe "this argument in argv"
 tryte run main.tryte "this argument in argv"
 
 
-# бинарный запуск
+# бинарный AOT запуск
 tryte build main.tryte --o main.exe
-tryte binary main.exe --o main.o
+tryte aot main.exe --o main.o
 ./main.o "this argument in argv"
 
 

@@ -1,0 +1,2 @@
+
+long null = 0;

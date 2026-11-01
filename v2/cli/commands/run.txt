@@ -1,2 +1,0 @@
-/// IDEA: tryte run main.cpp  (можно запускать так)
-/// IDEA: tryte run --cache  (значит, кешировать в папку __cacheTryteLang__)
