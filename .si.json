@@ -1,0 +1,50 @@
+{
+  "plugin": "org.smartide.plugin.python",
+  "run": "python main.py",
+  "intelligence": {
+    ".json": {
+      "enabled": true,
+      "run": "vscode-json-language-server --stdio"
+    },
+    ".py": {
+      "enabled": false,
+      "run": "pylsp"
+    },
+    ".cpp": {
+      "enabled": false,
+      "run": "clangd"
+    },
+    ".js": {
+      "enabled": false,
+      "run": "typescript-language-server --stdio"
+    },
+    ".ts": {
+      "enabled": false,
+      "run": "typescript-language-server --stdio"
+    },
+    ".cs": {
+      "enabled": false,
+      "run": "omnisharp -lsp"
+    },
+    ".rb": {
+      "enabled": false,
+      "run": "solargraph stdio"
+    },
+    ".swift": {
+      "enabled": false,
+      "run": "sourcekit-lsp"
+    },
+    ".rs": {
+      "enabled": false,
+      "run": "rust-analyzer"
+    },
+    ".java": {
+      "enabled": false,
+      "run": "jdtls"
+    },
+    ".c": {
+      "enabled": false,
+      "run": "clangd"
+    }
+  }
+}
